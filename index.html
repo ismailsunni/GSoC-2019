@@ -22,7 +22,7 @@
         <p class="size-2">
           <strong>Student:</strong> <a href="http://github.com/ismailsunni" target="_blank" rel="noopener">Ismail Sunni</a>
           <br/>
-          <strong>Mentors:</strong> <a href="http://github.com/wonder-sk" target="_blank" rel="noopener">Martin Dobias</a>, <a href="https://github.com/PeterPetrik" target="_blank" rel="noopener">Peter Petrik</a> 
+          <strong>Mentors:</strong> <a href="http://github.com/wonder-sk" target="_blank" rel="noopener">Martin Dobias</a>, <a href="https://github.com/PeterPetrik" target="_blank" rel="noopener">Peter Petrik</a>
         </p>
         <h3>Abstract</h3>
         <blockquote>
@@ -72,10 +72,10 @@
             </a>
           </li>
           <li>
-              <a href="https://ismailsunni.github.io/GSoC-2019/" target="_blank" rel="noopener">
-                This final GSoC Report
-              </a>
-            </li>
+            <a href="https://ismailsunni.github.io/GSoC-2019/" target="_blank" rel="noopener">
+              This final GSoC Report
+            </a>
+          </li>
         </ol>
         <hr/>
         <h2>Before GSoC 2019</h2>
@@ -100,13 +100,23 @@
         </p>
         <h3>3D On-Screen Navigation</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jp197BEymks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="unfinished">
-          Something here
+        <p>
+          Martin suggested me to start working on a separate project to make the iteration faster. I worked initially in <a href="https://github.com/ismailsunni/qt3d-hello-world" target="_blank" rel="noopener">this repository</a> to implement on-screen navigation. Things went well, except that it's not possible to create a floating widget on top of Q3DWindow. The alternative implementation is adding the QWidget for the navigation next to the 3D Map View. Other alternative solution is either too much work (render the navigation manually) or adding new dependency into QGIS (using QtQuick). The tool is accessible from the 3D Map View toolbar.
         </p>
+        <span>
+          <strong>
+              Result:
+          </strong>
+          On-Screen navigation is added with these features: zoom in and out, pan, rotate with a compas-like widget, tilt up and down.
+        </span>
+
         <h3>3D Measurement Tool</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/gW0xu595HKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="unfinished">
-          Something here
+        <p>
+          The first obstacle is the line rendering (it does not show up, and I learned that it is not so easy to debug missing thing in 3D). I got help for this one in <a href="https://github.com/qgis/QGIS/pull/30299/commits/8550f2c922d3dc566401014d5b23fadfda2dd30f" target="_blank" rel="noopener">this commit</a>.
+        </p>
+        <p>
+          I tried implementing the 3D measurement tool as in 2D as much as possible. It has the same UI with the same configuration (rubber band color, unit, decimal place, and keeping the base unit). It also has the same behavior (left-click to add a new point, middle-click to delete the last point, and right-click to restart the measurement). The main difference compared to the 2D one is this tool considers the Z-value, for example, it will pick the height of an object or the wall of a building. In this case, the user can measure for example the height of a tree or the distance between the top of two building. The tool is available in the 3D Map view toolbar.
         </p>
         <h3>3D Rendering Point Feature as A Billboard</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/_iCPqcXWxk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
