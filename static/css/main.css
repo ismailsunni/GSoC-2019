@@ -26,3 +26,9 @@ img {
 .need-check {
     color: orange
 }
+
+.youtube-video {
+    width: 100%;
+    height: 400px;
+    align-content: center;
+}
