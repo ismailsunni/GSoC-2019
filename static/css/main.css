@@ -18,3 +18,7 @@ html {
 img {
     width: 100%;
 }
+
+.unfinished {
+    color: red
+}
