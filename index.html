@@ -20,41 +20,74 @@
           QGIS 3D Improvement: On Screen Navigation, Bookmarks, Rendering Point Feature as Billboard, and Measuring Tool
         </h2>
         <p class="size-2">
-          Ismail Sunni<br/>
-          Martin Dobias, Peter Petrik
+          <strong>Student:</strong> <a href="http://github.com/ismailsunni" target="_blank" rel="noopener">Ismail Sunni</a>
+          <br/>
+          <strong>Mentors:</strong> <a href="http://github.com/wonder-sk" target="_blank" rel="noopener">Martin Dobias</a>, <a href="https://github.com/PeterPetrik" target="_blank" rel="noopener">Peter Petrik</a> 
         </p>
-        <h3 id="Abstract">Abstract</h3>
+        <h3>Abstract</h3>
         <blockquote>
-          <p class="unfinished">
-            Abstract HERE
+          <p class="need-check">
+            QGIS 3D is a great feature that has been introduced in QGIS 3.0 in 2018. It is still missing some features that are needed or can be helpful for the user though. In this project, I will work on 4 improvements to fill that missing features:
           </p>
+          <ol class="need-check">
+            <li>
+              On Screen Navigation: help the user to navigate the 3D view
+            </li>
+            <li>
+              Measuring Tool: measure distance in 3D view
+            </li>
+            <li>
+              Rendering Point Feature as Billboard: show a point feature as a billboard (use case: show icon location and point cloud rendering)
+            </li>
+            <li>
+              Bookmarks: help the user to save a 3D view and/or go back to a saved 3D view
+              </li>
+          </ol>
         </blockquote>
         <p>
           <a href="https://storage.googleapis.com/summerofcode-prod.appspot.com/gsoc/core_project/doc/4641479446757376_1554708416_IsmailSunniProposalGSoC2019-QGIS3D-v02.pdf?Expires=1566805605&GoogleAccessId=summerofcode-prod%40appspot.gserviceaccount.com&Signature=IMrvL5XH9UUQGQQhhBcceNou9j%2FCm6BrJLeWx3XVPmxLTdXp8uExt%2FFGEGomd8a0TVEx%2FEdX5zJp7H5QjvqMWzfJnIhup76p%2BMc2GzUchJ1Y6roxCu3tWe3ScakYCxX6fg2151opInlmUbrwL18cktLVhBrMN1n4JdcgSgQmq0b8ZtgqaF1hVF%2B%2FQKhsPT8YyWdG%2BO89YchZ6XvV1zLK9PHbV357UPo0Qh5h4Wdi6DV19DCoOyswKmRHIDNasu%2BQuFpTfPUWNWjcEaXV5Y5Y9ZE7yrAwqpCnHsMxKfjwmGRg7jQjedmM%2BgRZyYnLDqd4riNG7AP8H1osDLuGB4VUuA%3D%3D" target="_blank" rel="noopener" >
             Read Full Proposal
           </a>
         </p>
+        <h3>Important Links</h3>
+        <ol>
+          <li>
+            <a href="https://github.com/ismailsunni/QGIS/wiki/GSoC-2019---QGIS-3D-Improvement" target="_blank" rel="noopener">
+              Project Wiki and Weekly Report
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ismailsunni/qgis" target="_blank" rel="noopener">
+              My fork of QGIS repository
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ismailsunni/qt3d-hello-world" target="_blank" rel="noopener">
+              Learning Qt3D - Navigation
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ismailsunni/qt3d-custom-shader" target="_blank" rel="noopener">
+              Learning Qt3D with Custom Shader
+            </a>
+          </li>
+        </ol>
         <hr/>
-        <h3 id="Important-Links">Important Links</h3>
-        <p>
-          <strong>Repository:</strong>
-          <a href="https://github.com/ismailsunni/qgis" target="_blank" rel="noopener">
-            ismailsunni/qgis
-          </a>
-          ,
-          <a href="https://github.com/ismailsunni/qt3d-hello-world" target="_blank" rel="noopener">
-            Learning Qt3D - Navigation
-          </a>
-          ,
-          <a href="https://github.com/ismailsunni/qt3d-custom-shader" target="_blank" rel="noopener">
-            Learning Qt3D with Custom Shader
-          </a>
-          <br/>
-          <strong>Project Wiki and Weekly Report:</strong>
-          <a href="https://github.com/ismailsunni/QGIS/wiki/GSoC-2019---QGIS-3D-Improvement" target="_blank" rel="noopener">
-            Wiki
-          </a>
-        </p>
+        <h2>Before GSoC 2019</h2>
+        <ol>
+          <li>
+            It's possible to navigate in 3D Map View by using mouse or keyboard. It's quite easy to do it, unless you are not familiar about it. Just like me. It's easy to get lost and confused. You are not sure which key or movement to zoom, tilt, pan, or rotate the map view.
+          </li>
+          <li>
+            There is no way to do measurement in 3D Map view.
+          </li>
+          <li>
+            There is no billboard rendering support for point in 3D.
+          </li>
+          <li>
+            There is no bookmark feature to save a specific scene in 3D map view. There is only reset view which set the view from the top.
+          </li>
+        </ol>
         <hr/>
         <h2 id="Summer-Rewind">Summer Rewind</h2>
         <p class="unfinished">
