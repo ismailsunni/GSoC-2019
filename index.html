@@ -26,10 +26,10 @@
         </p>
         <h3>Abstract</h3>
         <blockquote>
-          <p class="need-check">
+          <p>
             QGIS 3D is a great feature that has been introduced in QGIS 3.0 in 2018. It is still missing some features that are needed or can be helpful for the user though. In this project, I will work on 4 improvements to fill that missing features:
           </p>
-          <ol class="need-check">
+          <ol>
             <li>
               On Screen Navigation: help the user to navigate the 3D view
             </li>
@@ -45,7 +45,7 @@
           </ol>
         </blockquote>
         <p>
-          <a href="https://storage.googleapis.com/summerofcode-prod.appspot.com/gsoc/core_project/doc/4641479446757376_1554708416_IsmailSunniProposalGSoC2019-QGIS3D-v02.pdf?Expires=1566805605&GoogleAccessId=summerofcode-prod%40appspot.gserviceaccount.com&Signature=IMrvL5XH9UUQGQQhhBcceNou9j%2FCm6BrJLeWx3XVPmxLTdXp8uExt%2FFGEGomd8a0TVEx%2FEdX5zJp7H5QjvqMWzfJnIhup76p%2BMc2GzUchJ1Y6roxCu3tWe3ScakYCxX6fg2151opInlmUbrwL18cktLVhBrMN1n4JdcgSgQmq0b8ZtgqaF1hVF%2B%2FQKhsPT8YyWdG%2BO89YchZ6XvV1zLK9PHbV357UPo0Qh5h4Wdi6DV19DCoOyswKmRHIDNasu%2BQuFpTfPUWNWjcEaXV5Y5Y9ZE7yrAwqpCnHsMxKfjwmGRg7jQjedmM%2BgRZyYnLDqd4riNG7AP8H1osDLuGB4VUuA%3D%3D" target="_blank" rel="noopener" >
+          <a href="https://docs.google.com/document/d/1RcXiEyziQyGurqDGRBN3g-het33liVD81WFjv8qQlt8" target="_blank" rel="noopener" >
             Read Full Proposal
           </a>
         </p>
@@ -128,26 +128,51 @@
         <h3>3D Rendering Point Feature as A Billboard</h3>
         <iframe class="youtube-video" src="https://www.youtube.com/embed/_iCPqcXWxk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p class="unfinished">
-          Something here
+          Like the first feature, I started to experiment with the billboard rendering in <a href="https://github.com/ismailsunni/qt3d-custom-shader" target="_blank" rel="noopener">separated repository</a> by porting the billboard rendering that Martin did with QML in <a href="https://github.com/wonder-sk/qt3d-experiments/tree/master/billboards" target="_blank" rel="noopener">this repository</a> to a C++ project.
+        </p>
+        <p>
+          After it is working, I moved it to the QGIS code base. It is not straight forward process, and has some obstacles. In the end, I can make it work and now we can use the billboard rendering for a point in 3D map view. The billboard can be set using the same QGIS symbol for point. As a billboard, it will always face to the user and have the same size. User can also set the extra height for the billboard.
         </p>
         <h3>3D Bookmark View</h3>
         <p>
           Unfortunately, I couldn't manage to work on this feature in the GSoC period. The billboard rendering feature took more time than I expected.
         </p>
-        <h2 id="Future-Plans">Future Plans</h2>
+        <hr/>
+        <h2>Future Plans</h2>
         <p class="unfinished">
-          Something here
+          There some ideas that can be added to the current project:
+          <ol>
+            <li>
+              3D Map View bookmarks is not implemented in this project duration due to time constraint since the billboard rendering implementation needs more time than the initial expectation.
+            </li>
+            <li>
+              Extra feature for 3D On-Screen Navigation: Make it as a floating widget, but it will need to add another dependency if implemented with QtQuick or extra work if implemented with manual rendering in the 3D map scene
+            </li>
+            <li>
+              Extra feature for 3D Measurement Tool: Show the Z-value difference between two consecutive points
+            </li>
+            <li>
+              Extra feature for 3D Billboard Rendering for Point:
+              <ol>
+                <li>
+                  Add data-driven symbol support: It needs multi-texture rendering, currently it only supports one texture.
+                </li>
+                <li>
+                  Add a vertical line from the feature to the billboard
+                </li>
+              </ol>
+            </li>
+          </ol>
         </p>
         <hr/>
         <h2 id="Credits">Credits</h2>
-        <p class="unfinished">
-          Something here
+        <p>
+          Thanks for my mentor Martin and Peter who helped me a lot in this project (e.g. giving good guidance, answering my question, sharing knowledge, and so on). I think I have the best mentor for this project. I also want to say thank to Tim Sutton, Nyall Dawson, and Akbar Gumbira for my early proposal discussion. And of course, the whole QGIS community has been very supportive with the comments, the suggestions, the ideas, and the hackfests. It's really a great community. I hope I can contibute more in the future.
+        </p>
+        <p>
+          The last but not the least, for my wife who is always supporting me behind the scene :)
         </p>
         <hr/>
-        <h2 id="Apologies">Apologies</h2>
-        <p class="unfinished">
-          Something here
-        </p>
         <hr/>
         <h2 id="List-of-merged-PRs">List of merged PRs</h2>
         <p>
