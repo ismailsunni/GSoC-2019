@@ -1,0 +1,4 @@
+Contributing to Open Source Project as a Student through Google Summer of Code: QGIS 3D Improvement
+
+Contributing to open source project development is not easy for a newcomer. Sometimes the learning curve is very steep. Fortunately, there is a program from Google called Google Summer of Code. This is a global program focused on bringing more student developers into open source software development. Students work with an open-source organization on a 3-month programming project during summer.
+In this presentation, I will present my experience joining Google Summer of Code 2019 with OSGeo organization, working on QGIS 3D Improvement. The improvement includes 3D On-Screen Navigation, 3D Measurement Tool, and 3D Rendering Point Feature as A Billboard.
