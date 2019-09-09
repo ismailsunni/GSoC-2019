@@ -60,4 +60,4 @@ Tetap nimbrung ke komunitas. Eman-eman kalau dilepas hehe. Siapa tahu ada yang n
 
 Proyek saya di QGIS tentang QGIS 3D improvement. Ada 4 fitur yang rencananya saya buat, tapi hanya 3 yang bisa diselesaikan. 3 fitur tersebut: 3D On-Screen Navigation,  3D Measurement Tool, dan 3D Rendering Point Feature as A Billboard. Satu lagi yang meleset adalah 3D View Bookmark. Dari namanya, sudah ketahuan apa fungsi-fungsinya. Tidak super canggih memang, tapi diperlukan. Dan ternyata memang tidak gampang buatnya wkwkwk. Fitur-fitur tersebut akan tersedia di QGIS 3.10.
 
-Sekian kulgram saya. Semoga bermanfaat. Jika ada pertanyaan, monggo.
+Sekian kulgram saya. Semoga bermanfaat. Jika ada pertanyaan, monggo. Bisa juga join ke komunitas QGIS ID yang masih bayi https://qgis-id.github.io
