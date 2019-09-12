@@ -6,7 +6,7 @@ Assalamu'alaikum, seperti yang disampaikan sebelumnya, saya mau mengisi kulgram 
 
 Sebelumnya, perkenalkan nama saya Ismail Sunni, status: mahasiswa di sebuah perguruan tinggi negeri di negeri orang. Profesi aslinya Software Engineer, sekarang sedang berkecimpung di dunia geospatial (QGIS, webGIS, GeoDjango).
 
-Motivasi saya membuat kulgram ini adalah untuk memperbanyak keikutsertaan mahasiswa indonesia di Google Summer of Code.
+Motivasi saya membuat kulgram ini adalah untuk menyebarkan informasi sehingga bisa memperbanyak keikutsertaan mahasiswa indonesia di Google Summer of Code.
 
 Apa itu Google Summer of Code atau GSoC? GSoC adalah program dari Google yang memfokuskan untuk membawa student (mahasiswa) ke pengembangan open source software. Mahasiswa akan bekerja di sebuah proyek open source selama kurang lebih 3-4 bulan. Link terkait: https://summerofcode.withgoogle.com dan https://google.github.io/gsocguides/student/index
 
@@ -58,6 +58,8 @@ Di akhir periode, kita diharuskan membuat final report. Punya saya kayak gini ht
 6. Setelah GSoC
 Tetap nimbrung ke komunitas. Eman-eman kalau dilepas hehe. Siapa tahu ada yang nawarin kerjaan atau proyek :D
 
-Proyek saya di QGIS tentang QGIS 3D improvement. Ada 4 fitur yang rencananya saya buat, tapi hanya 3 yang bisa diselesaikan. 3 fitur tersebut: 3D On-Screen Navigation,  3D Measurement Tool, dan 3D Rendering Point Feature as A Billboard. Satu lagi yang meleset adalah 3D View Bookmark. Dari namanya, sudah ketahuan apa fungsi-fungsinya. Tidak super canggih memang, tapi diperlukan. Dan ternyata memang tidak gampang buatnya wkwkwk. Fitur-fitur tersebut akan tersedia di QGIS 3.10.
+Proyek saya di QGIS tentang QGIS 3D improvement. Ada 4 fitur yang rencananya saya buat, tapi hanya 3 yang bisa diselesaikan. 3 fitur tersebut: 3D On-Screen Navigation,  3D Measurement Tool, dan 3D Rendering Point Feature as A Billboard. Satu lagi yang meleset adalah 3D View Bookmark. Dari namanya, sudah ketahuan apa fungsi-fungsinya. Tidak super canggih memang. Tapi ternyata memang tidak gampang buatnya wkwkwk. Fitur-fitur tersebut akan tersedia di QGIS 3.10.
 
 Sekian kulgram saya. Semoga bermanfaat. Jika ada pertanyaan, monggo. Bisa juga join ke komunitas QGIS ID yang masih bayi https://qgis-id.github.io
+
+
